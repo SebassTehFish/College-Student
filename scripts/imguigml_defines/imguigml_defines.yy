@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"imguigml_defines",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"imguigml_defines",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Plugins/ImGuiGML/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

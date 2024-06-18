@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"imguigml_read_me",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"imguigml_read_me",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Plugins/ImGuiGML/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

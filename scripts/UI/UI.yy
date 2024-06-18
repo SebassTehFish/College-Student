@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"UI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UI",
+  "parent":{
+    "name":"imguigml_ui",
+    "path":"folders/Plugins/imguigml_ui.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
