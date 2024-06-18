@@ -51,6 +51,7 @@
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
     {"id":{"name":"obj_prompt_1","path":"objects/obj_prompt_1/obj_prompt_1.yy",},},
     {"id":{"name":"obj_prompt_2","path":"objects/obj_prompt_2/obj_prompt_2.yy",},},
+    {"id":{"name":"obj_prompt_main","path":"objects/obj_prompt_main/obj_prompt_main.yy",},},
     {"id":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},},
     {"id":{"name":"objBook","path":"objects/objBook/objBook.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
