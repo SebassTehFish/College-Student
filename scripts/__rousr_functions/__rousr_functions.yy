@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"__rousr_functions",
   "isCompatibility":false,
   "isDnD":false,

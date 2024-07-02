@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"imguigml_wrapper_widget",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"imguigml_defines",
   "isCompatibility":false,
   "isDnD":false,
