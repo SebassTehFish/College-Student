@@ -14,22 +14,15 @@ function change_intelligence(_change_value)
 	}
 	else
 		int_stat += _change_value;
-		
+	
+	/*
 	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
 		room_goto_next();
+		*/
 }
 
 function change_friendship(_change_value)
 {
-	/*
-	if((friendship_stat + _change_value) >= 0)
-		friendship_stat += _change_value;
-	else
-		friendship_stat = 0;
-		
-	if(friendship_stat > 100)
-		friendship_stat = 100;
-		*/
 	audio_play_sound(asset_get_index("snd_button_click"), 0, 0);
 	
 	if(friendship_stat + _change_value >= 100)
@@ -42,21 +35,14 @@ function change_friendship(_change_value)
 	else
 		friendship_stat += _change_value;
 		
+		/*
 	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
 		room_goto_next();
+		*/
 }
 
 function change_money(_change_value)
 {
-	/*
-	if((money_stat + _change_value) >= 0)
-		money_stat += _change_value;
-	else
-		money_stat = 0;
-		
-	if(money_stat > 100)
-		money_stat = 100;
-		*/
 	audio_play_sound(asset_get_index("snd_button_click"), 0, 0);
 		
 	if(money_stat + _change_value >= 100)
@@ -69,8 +55,25 @@ function change_money(_change_value)
 	else
 		money_stat += _change_value;
 	
+	/*
 	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
 		room_goto_next();
+		*/
+}
+
+function getIntStat()
+{
+	return int_stat;
+}
+
+function getMoneyStat()
+{
+	return money_stat;
+}
+
+function getFriendshipStat()
+{
+	return friendship_stat;
 }
 
 //Set scale based on HP, *xscale is due to scaling sprite

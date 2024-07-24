@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 //Setup xx/yy
 var _book_x = 450;
 var _book_y = 675;
@@ -5,6 +7,7 @@ var _friendship_x = 650;
 var _friendship_y = 575;
 var _money_x = 950;
 var _money_y = 575;
+depth = 1;
 
 //Draw gray bar for int
 draw_sprite_ext(spr_book_bar, 1, _book_x, _book_y, xbookscale, 1.9, 180, c_white, 1);
