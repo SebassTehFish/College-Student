@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_prompt_1_2",
-    "path":"sprites/spr_prompt_1_2/spr_prompt_1_2.yy",
+    "name":"spr_prompt_2_1",
+    "path":"sprites/spr_prompt_2_1/spr_prompt_2_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

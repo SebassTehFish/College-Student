@@ -14,11 +14,6 @@ function change_intelligence(_change_value)
 	}
 	else
 		int_stat += _change_value;
-	
-	/*
-	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
-		room_goto_next();
-		*/
 }
 
 function change_friendship(_change_value)
@@ -34,11 +29,6 @@ function change_friendship(_change_value)
 	}
 	else
 		friendship_stat += _change_value;
-		
-		/*
-	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
-		room_goto_next();
-		*/
 }
 
 function change_money(_change_value)
@@ -54,11 +44,6 @@ function change_money(_change_value)
 	}
 	else
 		money_stat += _change_value;
-	
-	/*
-	if(int_stat > 0 && friendship_stat > 0 && money_stat > 0)
-		room_goto_next();
-		*/
 }
 
 function getIntStat()
@@ -95,5 +80,3 @@ if(money_stat_temp > money_stat)
 	money_stat_temp -= 1;
 else if(money_stat_temp < money_stat)
 	money_stat_temp += 1;
-	
-//Lose States

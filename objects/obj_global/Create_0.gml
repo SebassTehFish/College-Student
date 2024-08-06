@@ -19,3 +19,5 @@ money_stat = 50;
 money_max = 100;
 money_min = 0;
 money_stat_temp = money_stat;
+
+audio_play_sound(snd_music, 0, true);

@@ -10,4 +10,4 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_text(x + 50, y + 50, button_text);
+draw_text(x + 25, y + 80, button_text);
